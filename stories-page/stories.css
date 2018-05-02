@@ -29,13 +29,13 @@ body {
 }
 
 .about{
-	background: rgba(215, 207, 185, 0.8);
+	background: rgba(215, 207, 185, 1);
 	width: 20%;
 	text-align: center;
 }
 
 .events{
-	background: rgba(215, 207, 185, 0.6);
+	background: rgba(215, 207, 185, 0.8);
 	width: 20%;
 	text-align: center;
 }
@@ -120,8 +120,6 @@ body>.test1>.test2:nth-child(odd) {
     transition: 0.5s;
 }
 
-
-
 .imageTab {
 	transition: 1.8s ease;
 	opacity: 0;
@@ -131,10 +129,7 @@ body>.test1>.test2:nth-child(odd) {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
-}
-
-.test2:hover .imageTab {
-  opacity: 1;
+	border-radius: 5px;
 }
 
 .test2{
@@ -142,9 +137,13 @@ body>.test1>.test2:nth-child(odd) {
 	position: relative;
 }
 
-.test2:hover .imagePreview {
+.test2:hover .imagePreview{
 	opacity: 0.7;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.test2:hover .imageTab {
+  opacity: 1;
 }
 
 .pictureButton {

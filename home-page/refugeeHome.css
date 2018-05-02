@@ -18,7 +18,7 @@ body {
 	overflow: hidden;
     margin: 0 auto;
 	display: flex;
-	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navContainer{
@@ -169,6 +169,12 @@ img.imagePreview{
 	height:auto;
 	transition: 1.8s ease;
 	backface-visibility: hidden;
+}
+
+.secondaryContainer{
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
 }
 
 
