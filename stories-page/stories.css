@@ -21,6 +21,12 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.home{
+	padding: 30px;
+	padding-top: 0px;
+	width: 20%;
+}
+
 .navContainer{
 	height: 100%;
 	width: 80%;
@@ -151,16 +157,24 @@ body>.test1>.test2:nth-child(odd) {
 	vertical-align: middle;
 	position: relative;
 	background: #d77a61;
-	padding: 15px 10px;
+	padding: 0px 10px;
+	border-radius: 5px;
 }
 
 .pictureButton a{
 	text-decoration: none;
 	font-size: 20px;
 	color: white;
-	padding: 25px 35px;	
 }
 
+.pictureButton h1{
+	font-size: 22px;
+}
+
+.pictureButton p{
+	margin-top: -10px;
+	font-size: 15px;
+}
 
 
 
