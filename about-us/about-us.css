@@ -153,9 +153,16 @@ body {
 	letter-spacing: 3px;
 }
 
-.element3 p{
-	padding: 0px 40px;
+.element3 a{
+	font-size: 18px;
 	color: #d77a61;
+	text-decoration: none;
+	-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+}
+
+.element3 a:hover{
+	color: white;
 }
 
 .wwd{
