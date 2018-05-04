@@ -176,6 +176,7 @@ body {
 	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.09);
 	-webkit-transition: 0.5s;
     transition: 0.5s;
+	cursor: pointer;
 }
 
 .my-float{
@@ -222,6 +223,20 @@ body {
 
 .close:hover,
 .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus{
     color: #000;
     text-decoration: none;
     cursor: pointer;
