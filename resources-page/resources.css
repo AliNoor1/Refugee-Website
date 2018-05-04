@@ -1,0 +1,157 @@
+
+/* Body */
+body {
+	margin: 0;
+	font-family: 'Gothic A1', sans-serif;
+	font-style: normal;
+	letter-spacing: 2px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topNav{
+	width: 100%;
+	height: 20vh;
+	overflow: hidden;
+    margin: 0 auto;
+	display: flex;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 4px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.home{
+	padding: 30px;
+	margin-top: -50px;
+	width: 20%;
+}
+
+.navContainer{
+	height: 100%;
+	width: 80%;
+	display: flex;
+	margin:0;
+}
+
+.about{
+	background: rgba(215, 207, 185, 1);
+	width: 20%;
+	text-align: center;
+}
+
+.events{
+	background: rgba(215, 207, 185, 0.8);
+	width: 20%;
+	text-align: center;
+}
+
+.stories{
+	background: rgba(215, 207, 185, 0.6);
+	width: 20%;
+	text-align: center;
+}
+
+
+.classes{
+	background: rgba(215, 207, 185, 0.4);
+	width: 20%;
+	text-align: center;
+}
+
+.resources{
+	background: #d77a61;
+	width: 20%;
+	text-align: center;
+}
+
+
+
+.logo{
+	display: inline-block;
+	font-size: 22px;
+	font-family: 'Gothic A1', sans-serif;
+	width: 20%;
+	text-align: center;
+	color: #585859;
+	background: white;
+}
+
+.logo h1{
+	font-weight: 100;
+}
+
+.topLinks{
+    color: #585859;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 100;
+    text-decoration: none;
+	display: block;
+	margin-top: 30%;
+	-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+}
+
+.topLinks:hover{
+	color: white;
+}
+
+.socialLinks{
+	width: 100%;
+	height: 50vh;
+	background: rgba(115, 130, 144, 0.65);
+}
+
+.socialLinks i{
+	position: relative;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	font-size: 75px;
+	padding: 30px;
+	text-align: center;
+	-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+}
+
+#fb{
+	color: #3B5998; 
+}
+
+#fb:hover{
+	color: rgba(215, 207, 185, 1);
+	cursor: pointer;
+}
+
+#twitter{
+	color: #1DA1F2; 
+}
+
+#twitter:hover{
+	color: rgba(215, 207, 185, 1);
+	cursor: pointer;
+}
+
+#googlePlus{
+	color: #DB4437;
+}
+
+#googlePlus:hover{
+	color: rgba(215, 207, 185, 1);
+	cursor: pointer;
+}
+
+#insta{
+	margin-left: -40px;
+	color: #262626;
+}
+
+#insta:hover{
+	color: rgba(215, 207, 185, 1);
+	cursor: pointer;
+}
+
+
+
+
