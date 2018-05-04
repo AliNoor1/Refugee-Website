@@ -23,7 +23,7 @@ body {
 
 .home{
 	padding: 30px;
-	padding-top: 0px;
+	margin-top: -50px;
 	width: 20%;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .about{
-	background: rgba(215, 207, 185, 0.8);
+	background: rgba(215, 207, 185, 1);
 	width: 20%;
 	text-align: center;
 }

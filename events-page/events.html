@@ -169,7 +169,7 @@
 				<span class="close">&times;</span>
 				<h1>Create an Event</h1>
 				
-				<form>
+				<form action="events.php" method="post">
 					
 					<label for="fname">First Name</label>
 					<input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -184,10 +184,12 @@
 					<input type="text" id="zip" name="zip" placeholder="Zip Code">
 					
 					<label for="time">Time</label>
-					<input type="text" id="address" name="address" placeholder="Address">
+					<input type="text" id="time" name="time" placeholder="Time">
 					
 					<label for="desc">Description</label>
 					<textarea placeholder="Description..."></textarea>
+					
+					<input type="submit">
 					
 				</form>
 							 
@@ -214,6 +216,8 @@
 					
 					<label for="email">Email Address</label>
 					<input type="text" id="lname" name="lastname" placeholder="Your email address..">
+					
+					<input type="submit">
 					
 				</form>
 			

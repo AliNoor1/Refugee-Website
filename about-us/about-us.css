@@ -18,12 +18,12 @@ body {
 	overflow: hidden;
     margin: 0 auto;
 	display: flex;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 4px 10px 0 rgba(0, 0, 0, 0.09);
 }
 
 .home{
 	padding: 30px;
-	padding-top: 0px;
+	margin-top: -50px;
 	width: 20%;
 }
 
@@ -110,12 +110,11 @@ body {
 .element1{
 	width: 33%;
 	padding: 10px;
-	background: #738290;
+	background: rgba(115, 130, 144, 0.75);
 	text-align: center;
 }
 
 .element1 h1{
-	text-shadow: 2px 2px #585859;
 	color: white;
 	letter-spacing: 3px;
 }
@@ -128,12 +127,11 @@ body {
 .element2{
 	width: 33%;
 	padding: 10px;
-	background: #B0BEA9;
+	background: rgba(176, 190, 169, 0.75);
 	text-align: center;
 }
 
 .element2 h1{
-	text-shadow: 2px 2px #585859;
 	color: white;
 	letter-spacing: 3px;
 }
@@ -151,7 +149,6 @@ body {
 }
 
 .element3 h1{
-	text-shadow: 2px 2px #585859;
 	color: white;
 	letter-spacing: 3px;
 }
@@ -171,7 +168,6 @@ body {
 	max-width: 100%;
 	border: 2px solid white;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cp img{
@@ -179,7 +175,6 @@ body {
 	max-width: 100%;
 	border: 2px solid white;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
