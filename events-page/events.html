@@ -167,29 +167,61 @@
 			<div class="modal-content">
 			
 				<span class="close">&times;</span>
-				<h1>Create an Event</h1>
+				<h1 style="text-align: center;">Create an Event</h1>
 				
 				<form action="events.php" method="post">
 					
-					<label for="fname">First Name</label>
-					<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-					<label for="lname">Last Name</label>
-					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					<label for="fname">Name</label>
+					<div class="hostName">
+						<input type="text" id="fname" name="firstname" placeholder="First name..">
+						<input type="text" id="lname" name="lastname" placeholder="Last name..">
+					</div><br>
 					
 					<label for="location">Location</label>
-					<input type="text" id="address" name="address" placeholder="Address">
-					<input type="text" id="state" name="state" placeholder="State">
-					<input type="text" id="city" name="city" placeholder="City">
-					<input type="text" id="zip" name="zip" placeholder="Zip Code">
+					<div class="addy">
+						<input type="text" id="address" name="address" placeholder="Address">
+						<input type="text" id="state" name="state" placeholder="State">
+						<input type="text" id="city" name="city" placeholder="City">
+						<input type="text" id="zip" name="zip" placeholder="Zip Code">
+					</div><br>
 					
 					<label for="time">Time</label>
-					<input type="text" id="time" name="time" placeholder="Time">
+					<div class="timeDiv">
+						<select type="text" id="time1" name="time">
+							<option value="12">12</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+						</select>
+						
+						<select type="text" id="time2" name="time">
+							<option value="00">00</option>
+							<option value="10">10</option>
+							<option value="20">20</option>
+							<option value="30">30</option>
+							<option value="40">40</option>
+							<option value="50">50</option>
+						</select>
+						
+						<select type="text" id="time3" name="time">
+							<option value="pm">P.M.</option>
+							<option value="am">A.M.</option>
+						</select>
+					</div><br>
 					
 					<label for="desc">Description</label>
 					<textarea placeholder="Description..."></textarea>
+					<br>
 					
-					<input type="submit">
+					<input class="eventSubmit" type="submit">
 					
 				</form>
 							 
