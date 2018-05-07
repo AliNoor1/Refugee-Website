@@ -124,6 +124,7 @@ body>.test1>.test2:nth-child(odd) {
 	max-height: 100%;
 	-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
     transition: 0.5s;
+	border-radius: 5px;
 }
 
 .imageTab {
@@ -159,6 +160,8 @@ body>.test1>.test2:nth-child(odd) {
 	background: #d77a61;
 	padding: 0px 10px;
 	border-radius: 5px;
+	-webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
 }
 
 .pictureButton a{
@@ -174,6 +177,10 @@ body>.test1>.test2:nth-child(odd) {
 .pictureButton p{
 	margin-top: -10px;
 	font-size: 15px;
+}
+
+.pictureButton:hover{
+	background: #ad624e;
 }
 
 

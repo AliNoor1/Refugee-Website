@@ -181,6 +181,7 @@ img.imagePreview{
 	overflow: hidden;
 	position: absolute;
 	z-index: -1;
+	height: 90vh;
 }
 
 
