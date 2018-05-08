@@ -125,7 +125,6 @@ body {
 
 .eventTitle h1{
 	color: white;
-	text-shadow: 2px 2px #585859;
 	font-size: 35px;
 }
 
@@ -137,10 +136,6 @@ body {
 	border-right: 3px solid white;
 	color: #585859;
 	font-size: 24px;
-}
-
-.buttonDiv{
-	float: right;
 }
 
 #register{
@@ -232,20 +227,6 @@ body {
 .close:hover,
 .close:focus{
     color: red;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.close2{
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close2:hover,
-.close2:focus{
-    color: #000;
     text-decoration: none;
     cursor: pointer;
 }
